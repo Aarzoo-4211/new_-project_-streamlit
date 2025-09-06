@@ -33,7 +33,7 @@ if income > 0:
         'Category': ['Rent', 'Food', 'Transport', 'Entertainment', 'Others', 'Savings'],
         'Amount': [rent, food, transport, entertainment, others, savings]
     })
-    st.subheader("💡 Expen                                                       ses & Savings Distribution")
+    st.subheader("💡 Expenses & Savings Distribution")
     st.bar_chart(df.set_index('Category'))
 
     # Message
